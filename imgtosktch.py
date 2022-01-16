@@ -1,3 +1,4 @@
+#import the library , if you don't have, command to install it is : pip install opencv-python
 import cv2
 
 #Direct Method 

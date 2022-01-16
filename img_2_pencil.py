@@ -11,7 +11,6 @@ def convert(image):
     pencil=cv.divide(gray,inv_blur,scale=256.0)   # diving the gray and inverted blurr image for output pencil sketch
     return pencil
 
-
 img=str(input("Enter the Image location: "))      # D:\manor\Pictures\Saved Pictures\naruto.jpg
 
 img=cv.imread(img)
